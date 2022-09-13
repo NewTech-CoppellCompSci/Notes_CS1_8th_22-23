@@ -23,7 +23,8 @@ public class Notes03_Scanners {
 		 * 
 		 * .next() - Stops scanning at space OR end of line
 		 * .nextLine() - Stops scanning at the end of the line
-		 * 
+		 * .nextInt() - Scans the next input as an integer
+		 * .nextDouble() - Scans the next input as a double
 		 * 
 		 */
 		
@@ -46,12 +47,23 @@ public class Notes03_Scanners {
 		//scan
 		String input2 = inKey.next();
 		//use
-		System.out.println(input2);
+		System.out.println(input2 + "\n");
 		
 		
+		//prompt 
+		System.out.print("How many students are in your class? ");
+		//scan
+		int num1 = inKey.nextInt();
+		num1 = num1 / 2;
+		//use
+		System.out.println("Did you say " + num1 + "?\n");
 		
-		
-		
+		//prompt 
+		System.out.print("How much of an 8 piece pie can go to each of 9 people? ");
+		//scan
+		double pieAmount = inKey.nextDouble();
+		//use
+		System.out.println("I think " + pieAmount + " is WAAAAYYY off!\n");
 		
 		
 	}
