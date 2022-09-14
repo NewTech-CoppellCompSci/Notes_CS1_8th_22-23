@@ -28,20 +28,25 @@ public class Notes03_Scanners {
 		 * 
 		 */
 		
-		//Creat a Scanner ONCE!!!!! ONLLY!!!!!
+		//Create a Scanner ONCE!!!!! ONLLY!!!!!
 		Scanner inKey = new Scanner(System.in);
 		
-		
+		/*
+		 * Scanning a full line
+		 */
 		//prompt 
 		System.out.print("Enter your favorite ice cream flavor: ");
 		//scan
 		String input = inKey.nextLine();
 		//use
-		System.out.println(input);
+		System.out.println(input + "\n");
 		
+		//DO NOT RECREATE THE SCANNER!!!
+		//Unless you're in a new method
 		
-		System.out.println();
-		
+		/*
+		 * Scanning only 1 word
+		 */
 		//prompt 
 		System.out.print("Do you prefer pineapple on pizza: ");
 		//scan
@@ -49,7 +54,9 @@ public class Notes03_Scanners {
 		//use
 		System.out.println(input2 + "\n");
 		
-		
+		/*
+		 * Scanning an Integer
+		 */
 		//prompt 
 		System.out.print("How many students are in your class? ");
 		//scan
@@ -58,6 +65,10 @@ public class Notes03_Scanners {
 		//use
 		System.out.println("Did you say " + num1 + "?\n");
 		
+		
+		/*
+		 * Scanning a decimal
+		 */
 		//prompt 
 		System.out.print("How much of an 8 piece pie can go to each of 9 people? ");
 		//scan
