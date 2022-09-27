@@ -15,6 +15,11 @@ package notes;
  *     >= checks if the left is greater than or equal to the right
  * 	   <  checks if the left is less than the right
  *     <= checks if the left is less than or equal to the right
+ *     
+ *     
+ * STRINGS!!!!
+ *    .equals()  for comparing Strings
+ *      
  */
 
 public class Notes06_If_Statements {
@@ -80,7 +85,7 @@ public class Notes06_If_Statements {
 		else if (a == 5) {
 			System.out.println("#3\n");
 		}
-		else if (b == 15){
+		else if (b == 15) {
 			System.out.println("#4\n");
 		}
 		else {
@@ -89,7 +94,20 @@ public class Notes06_If_Statements {
 		
 		
 		
+		/*
+		 * Strings
+		 * 
+		 */
 		
+		if (name1.equals(name3)) {
+			System.out.println("name 1 & 3 are equal\n");
+		}
+		else if (name1.equals(name2)) {
+			System.out.println("name 1 & 2 are equal\n");
+		}
+		else {
+			System.out.println("Jeremy?\n");
+		}
 		
 		
 
