@@ -3,14 +3,14 @@ package notes;
 import java.util.Scanner;
 
 /*
- * Sentinal Controlled Loops
+ * Sentinel Controlled Loops
  * 
  * Loops that are NOT a specific number of iterations.
  * They are stopped either at random or by a user.
  * 
  */
 
-public class Notes10_Sentnial_Loops {
+public class Notes10_Sentniel_Loops {
 
 	public static void main(String[] args) {
 		
