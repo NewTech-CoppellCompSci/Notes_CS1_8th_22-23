@@ -19,7 +19,7 @@ import java.util.Scanner;
  */
 		
 
-public class Notes12_Nested_Loops {
+public class Notes13_Nested_Loops {
 
 	public static void main(String[] args) {
 		
