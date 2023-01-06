@@ -7,6 +7,13 @@ public class Notes14_Math_Methods {
 	public static void main(String[] args) {
 		
 		/*
+		 * Pi
+		 */
+		System.out.println("Pi = " + Math.PI);
+		System.out.println("Area of circle with 2ft radius = " + (Math.PI * Math.pow(2, 2)) + " ft^2");
+		
+		System.out.println();
+		/*
 		 * Exponents
 		 * 
 		 * Math.pow(<base>, <exponent>) -> double 
