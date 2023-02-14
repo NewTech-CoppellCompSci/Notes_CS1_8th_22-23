@@ -3,7 +3,7 @@ package notes;
 /*
  * Traversing Strings
  * 
- * Basically looping through a string 1 or 2 
+ * Basically looping through a string 1 or more 
  * characters at a time
  * 
  * 
@@ -73,7 +73,7 @@ public class Notes17_String_Traversing {
 				newString += "a";
 			}
 			else {
-				newString += original.substring(i, i+1);
+				newString += original.substring(i,  i+1);
 			}
 			
 			
